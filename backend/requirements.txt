@@ -1,0 +1,18 @@
+# --- Core framework ---
+fastapi
+uvicorn[standard]
+
+# --- Database & ORM ---
+SQLAlchemy
+psycopg2-binary # PostgreSQL driver
+
+# --- Data validation ---
+pydantic
+pydantic-settings
+
+# --- Environment variables ---
+python-dotenv
+
+# --- Utility (optional but recommended) ---
+alembic
+requests
